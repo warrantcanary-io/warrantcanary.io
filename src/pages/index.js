@@ -39,11 +39,58 @@ const IndexPage = () => {
         <div className="container is-small has-text-centered">
           <div className="columns">
             <div className="column is-8 is-offset-2">
-              <h1 className="title is-spaced">What is this?</h1>
-              <h2 className="subtitle is-spaced">I&rsquo;m building a fully automated, up-to-date index of all warrant canaries worldwide. My hope is that organizations everywhere use the platform to host their signed messages and that citizens, especially journalists, use it to shed light on secret activity.</h2>            
+              <h2 className="title is-spaced">What is this?</h2>
+              <h3 className="subtitle is-spaced">I&rsquo;m building a fully automated, up-to-date index of all warrant canaries worldwide. My hope is that organizations everywhere use the platform to host their signed messages and that citizens, especially journalists, use it to shed light on secret activity.</h3>
+              
             </div>
           </div>
         </div>
+      </section>
+      <section id="faq" className="section has-background-light is-medium">
+        <div className="container is-small has-text-centered">
+            <div className="block">
+              <div className="card block">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-content">
+                      <h3 className="title is-4">What&rsquo;s a warrant canary?</h3>
+                      <p>xx</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card block">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-content">
+                      <h3 className="title is-4">What&rsquo;s wrong with how we do it now?</h3>
+                      <p>xx</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card block">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-content">
+                      <h3 className="title is-4">Is it free?</h3>
+                      <p>xx</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card block">
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-content">
+                      <h3 className="title is-4">Who are you, anyway?</h3>
+                      <p>xx</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
     </div>
   )
